@@ -142,7 +142,7 @@ for file in os.listdir(FOLDER_NAME):
         "Price": price,
         "Product Description": description,
         "Technical Description": technical_spec,
-        "Images": images_csv,  # <-- last column: comma-separated image URLs
+        "Image URLs": images_csv,  # <-- last column: comma-separated image URLs
     })
 
 # Create DataFrame + export
